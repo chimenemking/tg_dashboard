@@ -74,3 +74,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.input-style1{
+  @apply py-2 border-b border-slate-300 outline-none focus:border-b-violet-500 focus:animate-pulse;
+}

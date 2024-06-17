@@ -7,7 +7,7 @@ import Avatar from 'react-avatar';
 import { Button } from '@/components/ui/button';
 
 
-const menuItems =[
+const menuItems = [
   {
     title: "Pages",
     list:[
@@ -81,7 +81,7 @@ type Props = {}
 const Sidebar: React.FC<Props> = () => {
   return (
     <>
-    <div className='top-40 sticky'>
+    <div className='sticky '>
       <div className='flex items-center gap-5 m-4'>
         <Avatar name='wim matiks' round size='50'/>
         <div className='flex flex-col'>
@@ -103,7 +103,7 @@ const Sidebar: React.FC<Props> = () => {
       }
       </ul>
       
-      <Button className='text-gray-200 m-4 bg-rose-800'>
+      <Button className='text-gray-100 m-4 hover:bg-rose-800 ease-in-out duration-700'>
        <span className='flex items-center gap-2'>
         <MdLogout/>
         Log out

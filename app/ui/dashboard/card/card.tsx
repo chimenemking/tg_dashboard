@@ -6,7 +6,7 @@ type Props = {}
 const Card = (props: Props) => {
   return (
     <>
-    <div className=' p-3 shadow-xl shadow-gray-300 bg-gray-200 hover:bg-white hover:cursor-pointer hover:transition delay-150 duration-300 ease-in-out border-l-4 hover:border-l-slate-900 rounded-sm'>
+    <div className=' p-2 shadow-xl shadow-gray-100 bg-gray-100 hover:bg-white hover:cursor-pointer hover:transition delay-150 duration-300 ease-in-out border-l-4 hover:border-l-slate-900 rounded-sm'>
       <div className='flex gap-2'>
       <MdShieldMoon size={24}/>
       <div className='flex flex-col gap-2'>
